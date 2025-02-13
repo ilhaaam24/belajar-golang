@@ -4,6 +4,15 @@ import "fmt"
 
 func main() {
 
+
+
+	// len() mengembalikan panjang slice
+	// cap() mengembalikan kapasitas slice
+	// slice[index] mengembalikan data slice sesuai index
+	// slice[index] = value mengubah data slice sesuai index
+	// make([]tipe data, panjang, kapasitas) membuat slice baru
+	// slice = append(slice, value) menambah data pada slice
+
 	names := [...]string{"joko", "budi", "eko", "kurniawan"}
 
 	names2 := names[1:3]
