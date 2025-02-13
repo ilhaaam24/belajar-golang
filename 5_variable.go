@@ -32,10 +32,12 @@ func main(){
 
 	// multiple variable
 	var(
+		ageI = 30
 		firstName = "Muhammad" 
 		lastName = "Ilham"
 	)
 
 	fmt.Println(firstName)
 	fmt.Println(lastName)
+	fmt.Println(ageI)
 }
