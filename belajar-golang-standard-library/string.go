@@ -15,5 +15,6 @@ func main(){
 	fmt.Println(strings.Trim("    Muhammad Ilham    ", " "))
 	fmt.Println(strings.ReplaceAll("Muhammad Ilham", "Ilham", "Iqbal"))
 	fmt.Println(strings.Repeat(" Muhammad Ilham",5))
-	
+	fmt.Println(strings.ToTitle(" Muhammad Ilham")) //change the string to title uppercase
+
 }
