@@ -25,4 +25,6 @@ func main(){
 
 	fmt.Println(strconv.Itoa(100))
 	fmt.Println(strconv.FormatInt(100, 2)) // binary
+
+	
 }
